@@ -1,10 +1,19 @@
 {
-  "name": "FocusFlow Developer",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "focusflow-developer",
   "version": "1.0.0",
-  "description": "Helps maintain FocusFlow's task-management code and UI conventions. Provides guidance on pure-function patterns, localStorage usage, CSS custom properties, and the Vitest + fast-check test style used in this project.",
-  "keywords": ["focusflow", "task-management", "vanilla-js", "css", "vitest", "fast-check"],
-  "skills": [
-    "skills/maintain-tasks.md"
+  "description": "Development and maintenance assistance for the FocusFlow student productivity dashboard.",
+  "author": {
+    "name": "Tharun"
+  },
+  "keywords": [
+    "focusflow",
+    "student productivity",
+    "task management",
+    "todo",
+    "tasks",
+    "productivity dashboard",
+    "vanilla javascript"
   ],
-  "mcpServers": []
+  "license": "MIT"
 }
