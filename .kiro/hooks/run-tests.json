@@ -1,0 +1,16 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run Tests on JS Save",
+      "trigger": "PostFileSave",
+      "description": "Runs the Vitest property-based test suite whenever a .js file is saved in the workspace.",
+      "matcher": "\\.(js)$",
+      "action": {
+        "type": "command",
+        "command": "cd /d \"e:\\Study-Planner\" && npm test",
+        "timeout": 60
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "FocusFlow Developer",
+  "version": "1.0.0",
+  "description": "Helps maintain FocusFlow's task-management code and UI conventions. Provides guidance on pure-function patterns, localStorage usage, CSS custom properties, and the Vitest + fast-check test style used in this project.",
+  "keywords": ["focusflow", "task-management", "vanilla-js", "css", "vitest", "fast-check"],
+  "skills": [
+    "skills/maintain-tasks.md"
+  ],
+  "mcpServers": []
+}

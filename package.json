@@ -1,0 +1,14 @@
+{
+  "name": "focusflow",
+  "version": "1.0.0",
+  "description": "Lightweight offline student productivity dashboard",
+  "main": "app.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "fast-check": "3.22.0",
+    "vitest": "2.1.9"
+  },
+  "license": "MIT"
+}
